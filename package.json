@@ -1,0 +1,10 @@
+{
+  "name": "response-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node app.js",
+    "build": "npx pkg --compress Brotli  --out-path ./dist  ./app.js "
+  }
+}
